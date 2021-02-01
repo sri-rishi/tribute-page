@@ -1,15 +1,71 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
- 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+html {
+    font-size: 10px;
+}
+
 body{
     background-color: rgba(212, 202, 202, 0.342);
     text-align: center;
-    margin: auto;
-    font-family: 'Lato', sans-serif;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #333;
 }
 header{
-    padding: 20px;
-    margin: 20px;
-    font-size: 24px
-    font-weight: 900;
+    padding: 10px;
 }
+
+h1{
+    font-size: 4rem;
+    margin: 30px auto;
+}
+
+#img-div{
+    background-color: #fff;
+    margin: auto 10px;
+    padding: 5px;
+    align-content: center;
+}
+
+#image {
+    max-width: 100%;
+}
+#tribute-info {
+    margin: 50px auto;
+}
+
+ul {
+    max-width: 550px;
+    text-align: left;
+    margin: 50px auto 0;
+}
+
+li{
+    margin: 16px auto;
+}
+
+blockquote {
+    text-align: left;
+    max-width: 545px;
+    margin: 50px auto;
+    font-style: italic;
+}
+
+a {
+    color: #477ca7;
+}
+
+a:visited{
+    color: #747474;
+}
+
+@media(max-width: 460px){
+    body{
+        margin: auto 10px;
+    }
+}
+
+
 
